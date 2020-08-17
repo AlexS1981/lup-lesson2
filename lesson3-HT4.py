@@ -11,7 +11,6 @@ dict_res = dict()
 
 for a in list_a:
     if type(a) == list:
-        print(type(a))
         dict_res.update({'list' : a})
     elif type(a) == dict:
         dict_res.update({'dict' : a})
